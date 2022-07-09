@@ -74,7 +74,7 @@ public class controller1 {
 		return String.valueOf(id);
 	}
 	
-	//1-b chuli POST request   
+	//1-b chuli POST request 
 	@RequestMapping(path="/student",method=RequestMethod.POST)
 	@ResponseBody
 	public String saveStudent(String name, int age) {
