@@ -1,6 +1,6 @@
 package Abby.demo;
 
-import org.junit.jupiter.api.Test;
+ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
@@ -20,6 +20,7 @@ public class DemoMapperTest{
 		
 		User user = UserMapper.selectById(101);
 		System.out.println(user);
+//		System.out.println("111111");
 		
 	}
 
