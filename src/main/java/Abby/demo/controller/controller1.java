@@ -44,7 +44,7 @@ public class controller1 {
 		}
 		System.out.println(request.getParameter("code"));
 		
-		//fanhui xiangying shuju
+		//返回响应数据
 		response.setContentType("text/html;charset=utf-8");
 		try (PrintWriter writer =  response.getWriter();){
 			writer.write("<h1>testestest</h1>");
