@@ -17,7 +17,6 @@ public class DemoMapperTest{
 	
 	@Test
 	public void testSelect() {
-		
 		User user = UserMapper.selectById(101);
 		System.out.println(user);
 //		System.out.println("111111");
