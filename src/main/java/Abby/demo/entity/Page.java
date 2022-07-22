@@ -1,6 +1,5 @@
 package Abby.demo.entity;
 
-import java.awt.List;
 
 /*
  * 封装分页相关信息
