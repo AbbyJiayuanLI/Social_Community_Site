@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <contextName>community</contextName>
-    <property name="LOG_PATH" value="D:/work/data"/>
-    <property name="APPDIR" value="community"/>
+    <contextName>demo</contextName>
+    <property name="LOG_PATH" value="Users/lijiayuan/Desktop/SNCS/log"/>
+    <property name="APPDIR" value="demo"/>
 
     <!-- error file -->
     <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -81,7 +81,7 @@
         </filter>
     </appender>
 
-    <logger name="com.nowcoder.community" level="debug"/>
+    <logger name="demo" level="debug"/>
 
     <root level="info">
         <appender-ref ref="FILE_ERROR"/>
