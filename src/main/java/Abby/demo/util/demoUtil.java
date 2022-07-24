@@ -12,7 +12,7 @@ public class demoUtil {
 		return UUID.randomUUID().toString().replaceAll("-", "");
 	}
 	
-	// MD5 encryption (salt??)
+	// MD5 encryption (salt在service加)
 	public static String md5(String key) {
 		if (StringUtils.isBlank(key)) {
 			return null;
