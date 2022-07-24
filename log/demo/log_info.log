@@ -1,0 +1,5 @@
+2022-07-23 17:24:15,368 INFO [main] A.d.LoggerTest [StartupInfoLogger.java:55] Starting LoggerTest using Java 1.8.0_221 on Abby.local with PID 56526 (started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-23 17:24:15,372 INFO [main] A.d.LoggerTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-23 17:24:18,326 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-23 17:24:19,149 INFO [main] A.d.LoggerTest [StartupInfoLogger.java:61] Started LoggerTest in 4.617 seconds (JVM running for 6.998)
+2022-07-23 17:24:19,711 INFO [main] A.d.LoggerTest [LoggerTest.java:20] info log
