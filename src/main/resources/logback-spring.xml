@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <contextName>demo</contextName>
-    <property name="LOG_PATH" value="Users/lijiayuan/Desktop/SNCS/log"/>
+    <property name="LOG_PATH" value="log"/>
     <property name="APPDIR" value="demo"/>
 
     <!-- error file -->
