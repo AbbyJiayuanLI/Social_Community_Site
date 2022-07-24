@@ -3,3 +3,19 @@
 2022-07-23 17:24:18,326 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
 2022-07-23 17:24:19,149 INFO [main] A.d.LoggerTest [StartupInfoLogger.java:61] Started LoggerTest in 4.617 seconds (JVM running for 6.998)
 2022-07-23 17:24:19,711 INFO [main] A.d.LoggerTest [LoggerTest.java:20] info log
+2022-07-23 19:11:27,707 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:55] Starting MailClientTest using Java 1.8.0_221 on Abby.local with PID 57659 (started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-23 19:11:27,710 INFO [main] A.d.MailClientTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-23 19:11:31,334 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-23 19:11:32,171 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:61] Started MailClientTest in 5.268 seconds (JVM running for 6.83)
+2022-07-23 19:17:46,478 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:55] Starting MailClientTest using Java 1.8.0_221 on Abby.local with PID 57744 (started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-23 19:17:46,482 INFO [main] A.d.MailClientTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-23 19:17:48,952 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-23 19:17:49,551 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:61] Started MailClientTest in 3.595 seconds (JVM running for 4.875)
+2022-07-23 19:21:01,971 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:55] Starting MailClientTest using Java 1.8.0_221 on Abby.local with PID 57797 (started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-23 19:21:01,975 INFO [main] A.d.MailClientTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-23 19:21:04,559 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-23 19:21:05,284 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:61] Started MailClientTest in 4.017 seconds (JVM running for 5.465)
+2022-07-23 19:25:45,957 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:55] Starting MailClientTest using Java 1.8.0_221 on Abby.local with PID 57857 (started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-23 19:25:45,960 INFO [main] A.d.MailClientTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-23 19:25:49,103 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-23 19:25:49,807 INFO [main] A.d.MailClientTest [StartupInfoLogger.java:61] Started MailClientTest in 4.446 seconds (JVM running for 6.368)
