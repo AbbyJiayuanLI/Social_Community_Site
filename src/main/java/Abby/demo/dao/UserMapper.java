@@ -8,7 +8,7 @@ import Abby.demo.entity.User;
 public interface UserMapper {
 	
 	User selectById(int id);
-	User selectByUserName(String username);
+	User selectByName(String username);
 	User selectByEmail(String email);
 	int insertUser(User user);
 	int updateStatus(int id, int status);
