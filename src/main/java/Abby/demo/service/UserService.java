@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-import org.apache.commons.lang3.ObjectUtils.Null;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,11 +14,12 @@ import org.thymeleaf.context.Context;
 
 import Abby.demo.dao.UserMapper;
 import Abby.demo.entity.User;
+import Abby.demo.util.DemoConstant;
 import Abby.demo.util.MailClient;
 import Abby.demo.util.demoUtil;
 
 @Service
-public class UserService {
+public class UserService implements DemoConstant {
 	@Autowired
 	private UserMapper userMapper;
 	
@@ -58,7 +58,7 @@ public class UserService {
 		}
 		
 		// 注册前判断是否已存在
-		User u1 = userMapper.selectByUserName(user.getUsername());
+		User u1 = userMapper.selectByName(user.getUsername());
 		if (u1!=null) {
 			map.put("usernameMsg", "账号已存在！");
 			return map;
@@ -93,6 +93,17 @@ public class UserService {
 		return map;
 	}
 	
+	public int activation(int userId, String code) {
+		User user = userMapper.selectById(userId);
+		if (user.getStatus()==1) {
+			return ACTIVATION_REPEAT;
+		}else if (user.getActivationCode().equals(code)) {
+			userMapper.updateStatus(userId, 1);
+			return ACTIVATION_SUCCESS;
+		} else {
+			return ACTIVATION_FAILURE;
+		}
+	}
 	
 	
 	
