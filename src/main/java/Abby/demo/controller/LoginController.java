@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.google.code.kaptcha.Producer;
 
-import Abby.demo.DemoApplication;
 import Abby.demo.entity.User;
 import Abby.demo.service.UserService;
 import Abby.demo.util.DemoConstant;

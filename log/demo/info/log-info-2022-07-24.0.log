@@ -1,0 +1,1106 @@
+2022-07-24 14:24:14,286 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67555 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:24:14,290 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:24:14,357 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-24 14:24:14,358 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-24 14:24:15,538 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:24:15,548 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:24:15,549 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:24:15,549 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:24:15,604 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:24:15,605 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1246 ms
+2022-07-24 14:24:16,089 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:24:16,462 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:24:16,497 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:24:16,550 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:24:16,563 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 2.722 seconds (JVM running for 3.475)
+2022-07-24 14:24:35,851 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 14:24:35,852 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 14:24:35,854 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-07-24 14:24:35,999 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-07-24 14:24:36,286 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-07-24 14:31:41,973 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2022-07-24 14:31:42,068 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-07-24 14:31:42,073 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-07-24 14:31:50,211 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67661 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:31:50,212 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:31:50,265 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-24 14:31:50,266 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-24 14:31:51,467 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:31:51,477 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:31:51,478 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:31:51,478 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:31:51,549 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:31:51,550 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1284 ms
+2022-07-24 14:31:52,638 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:31:53,164 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:31:53,253 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:31:53,408 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:31:53,425 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 3.627 seconds (JVM running for 4.304)
+2022-07-24 14:31:55,107 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 14:31:55,108 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 14:31:55,110 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-07-24 14:31:55,182 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-07-24 14:31:55,360 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-07-24 14:33:48,656 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2022-07-24 14:33:48,706 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-07-24 14:33:48,711 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-07-24 14:33:55,577 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67687 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:33:55,581 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:33:55,663 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-24 14:33:55,664 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-24 14:33:58,532 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:33:58,543 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:33:58,545 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:33:58,545 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:33:58,610 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:33:58,611 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2946 ms
+2022-07-24 14:33:59,383 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:34:00,090 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:34:00,113 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:34:00,160 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:34:00,178 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 5.193 seconds (JVM running for 6.276)
+2022-07-24 14:34:00,812 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 14:34:00,813 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 14:34:00,816 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-07-24 14:34:02,430 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-07-24 14:34:02,610 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-07-24 14:36:12,275 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2022-07-24 14:36:12,297 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-07-24 14:36:12,300 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-07-24 14:36:19,663 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:36:19,666 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:36:19,717 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-24 14:36:19,718 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-24 14:36:21,321 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:36:21,337 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:36:21,338 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:36:21,339 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:36:21,523 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:36:21,524 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1805 ms
+2022-07-24 14:36:22,190 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:36:23,458 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:36:23,863 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:36:23,983 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:36:24,213 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 4.995 seconds (JVM running for 5.919)
+2022-07-24 14:36:25,422 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 14:36:25,423 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 14:36:25,428 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-07-24 14:36:25,698 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-07-24 14:36:25,843 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-07-24 14:47:38,988 INFO [Thread-6] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-07-24 14:47:39,057 INFO [Thread-6] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-07-24 14:47:39,606 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:47:39,606 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:47:40,279 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:47:40,280 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:47:40,281 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:47:40,281 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:47:40,293 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:47:40,293 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 606 ms
+2022-07-24 14:47:40,578 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:47:40,716 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:47:40,732 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:47:40,734 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:47:40,745 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.208 seconds (JVM running for 682.441)
+2022-07-24 14:47:40,749 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 14:47:42,463 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:47:42,463 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:47:42,735 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:47:42,736 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:47:42,736 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:47:42,736 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:47:42,742 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:47:42,742 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 275 ms
+2022-07-24 14:47:43,034 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:47:43,352 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:47:43,386 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:47:43,393 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:47:43,399 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.986 seconds (JVM running for 685.096)
+2022-07-24 14:47:43,402 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 14:51:09,017 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:51:09,029 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:51:09,749 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:51:09,750 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:51:09,750 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:51:09,750 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:51:09,765 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:51:09,766 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 715 ms
+2022-07-24 14:51:09,981 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:51:10,090 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:51:10,120 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:51:10,128 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:51:10,139 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.381 seconds (JVM running for 891.833)
+2022-07-24 14:51:10,145 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 14:51:57,403 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:51:57,403 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:51:57,641 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:51:57,641 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:51:57,642 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:51:57,642 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:51:57,647 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:51:57,648 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 240 ms
+2022-07-24 14:51:57,787 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:51:57,908 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:51:57,916 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:51:57,921 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:51:57,927 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.557 seconds (JVM running for 939.619)
+2022-07-24 14:51:57,929 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 14:53:42,681 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:53:42,682 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:53:43,011 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:53:43,012 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:53:43,013 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:53:43,013 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:53:43,018 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:53:43,019 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 334 ms
+2022-07-24 14:53:43,199 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:53:43,268 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:53:43,280 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:53:43,285 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:53:43,291 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.66 seconds (JVM running for 1044.982)
+2022-07-24 14:53:43,292 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 14:59:46,096 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 14:59:46,098 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:59:46,582 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 14:59:46,583 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:59:46,584 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 14:59:46,585 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 14:59:46,589 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 14:59:46,589 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 488 ms
+2022-07-24 14:59:46,889 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 14:59:47,099 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 14:59:47,118 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 14:59:47,126 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 14:59:47,136 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.116 seconds (JVM running for 1408.822)
+2022-07-24 14:59:47,148 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:10:18,293 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:10:18,295 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:10:18,979 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:10:18,980 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:10:18,980 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:10:18,980 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:10:18,989 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:10:18,990 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 681 ms
+2022-07-24 15:10:19,245 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:10:19,395 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:10:19,415 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:10:19,419 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:10:19,438 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.368 seconds (JVM running for 2041.115)
+2022-07-24 15:10:19,441 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:13:07,523 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:13:07,524 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:13:08,348 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:13:08,349 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:13:08,350 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:13:08,350 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:13:08,356 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:13:08,356 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 825 ms
+2022-07-24 15:13:08,866 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:13:09,333 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:13:09,347 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:13:09,354 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:13:09,360 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.921 seconds (JVM running for 2211.035)
+2022-07-24 15:13:09,363 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:22:54,997 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:22:54,998 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:22:55,513 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:22:55,516 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:22:55,518 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:22:55,519 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:22:55,533 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:22:55,533 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 531 ms
+2022-07-24 15:22:55,740 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-07-24 15:22:55,755 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-24 15:23:15,693 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:23:15,694 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:23:16,473 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:23:16,474 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:23:16,475 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:23:16,475 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:23:16,480 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:23:16,481 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 779 ms
+2022-07-24 15:23:16,619 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:23:16,662 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:23:16,670 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:23:16,672 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:23:16,683 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.143 seconds (JVM running for 2818.349)
+2022-07-24 15:23:16,685 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:23:20,378 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:23:20,380 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:23:20,644 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:23:20,645 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:23:20,645 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:23:20,646 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:23:20,650 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:23:20,652 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 269 ms
+2022-07-24 15:23:20,771 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:23:20,813 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:23:20,825 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:23:20,829 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:23:20,836 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.5 seconds (JVM running for 2822.502)
+2022-07-24 15:23:20,838 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:34:04,584 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:34:04,585 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:34:05,197 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:34:05,198 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:05,199 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:34:05,199 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:34:05,205 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:34:05,205 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 617 ms
+2022-07-24 15:34:05,378 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:34:05,468 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:34:05,483 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:05,486 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:34:05,497 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.961 seconds (JVM running for 3467.154)
+2022-07-24 15:34:05,501 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:34:25,621 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:34:25,623 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:34:26,276 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:34:26,278 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:26,278 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:34:26,278 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:34:26,285 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:34:26,286 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 662 ms
+2022-07-24 15:34:26,531 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:34:26,591 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:34:26,601 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:26,606 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:34:26,613 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.038 seconds (JVM running for 3488.27)
+2022-07-24 15:34:26,615 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:34:36,214 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:34:36,215 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:34:36,427 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:34:36,427 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:36,428 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:34:36,428 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:34:36,431 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:34:36,432 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 214 ms
+2022-07-24 15:34:36,529 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:34:36,579 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:34:36,592 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:36,595 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:34:36,600 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.407 seconds (JVM running for 3498.256)
+2022-07-24 15:34:36,601 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:34:42,185 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:34:42,185 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:34:42,382 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:34:42,383 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:42,383 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:34:42,384 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:34:42,388 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:34:42,388 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 200 ms
+2022-07-24 15:34:42,487 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:34:42,545 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:34:42,561 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:34:42,565 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:34:42,569 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.415 seconds (JVM running for 3504.226)
+2022-07-24 15:34:42,571 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:36:04,058 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:36:04,059 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:36:04,231 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:36:04,231 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:36:04,232 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:36:04,232 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:36:04,235 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:36:04,235 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 175 ms
+2022-07-24 15:36:04,352 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:36:04,410 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:36:04,419 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:36:04,421 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:36:04,426 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.392 seconds (JVM running for 3586.081)
+2022-07-24 15:36:04,428 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:41:40,331 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:41:40,331 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:41:41,175 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:41:41,176 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:41:41,176 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:41:41,176 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:41:41,181 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:41:41,181 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 848 ms
+2022-07-24 15:41:41,409 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:41:41,500 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:41:41,517 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:41:41,528 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:41:41,554 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.264 seconds (JVM running for 3923.205)
+2022-07-24 15:41:41,564 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:41:43,111 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:41:43,111 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:41:43,418 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:41:43,418 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:41:43,419 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:41:43,419 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:41:43,423 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:41:43,423 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 310 ms
+2022-07-24 15:41:43,559 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:41:43,600 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:41:43,610 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:41:43,612 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:41:43,618 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.537 seconds (JVM running for 3925.269)
+2022-07-24 15:41:43,621 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:41:50,283 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:41:50,284 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:41:50,476 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:41:50,477 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:41:50,477 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:41:50,478 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:41:50,481 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:41:50,481 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 195 ms
+2022-07-24 15:41:50,562 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:41:50,603 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:41:50,612 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:41:50,614 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:41:50,631 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.38 seconds (JVM running for 3932.281)
+2022-07-24 15:41:50,633 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:42:15,615 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:42:15,615 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:42:15,953 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:42:15,953 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:42:15,954 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:42:15,954 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:42:15,959 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:42:15,959 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 341 ms
+2022-07-24 15:42:16,046 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:42:16,099 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:42:16,118 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:42:16,120 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:42:16,127 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.535 seconds (JVM running for 3957.777)
+2022-07-24 15:42:16,129 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:42:37,891 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:42:37,892 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:42:38,124 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:42:38,126 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:42:38,126 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:42:38,126 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:42:38,131 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:42:38,131 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 238 ms
+2022-07-24 15:42:38,241 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:42:38,289 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:42:38,303 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:42:38,305 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:42:38,311 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.467 seconds (JVM running for 3979.96)
+2022-07-24 15:42:38,312 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:42:41,874 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:42:41,876 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:42:42,303 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:42:42,305 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:42:42,307 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:42:42,307 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:42:42,316 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:42:42,316 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 437 ms
+2022-07-24 15:42:42,498 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:42:42,635 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:42:42,646 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:42:42,654 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:42:42,662 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.815 seconds (JVM running for 3984.312)
+2022-07-24 15:42:42,664 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:43:32,892 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:43:32,893 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:43:33,477 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:43:33,478 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:43:33,478 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:43:33,478 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:43:33,483 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:43:33,483 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 588 ms
+2022-07-24 15:43:33,625 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:43:33,805 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:43:33,819 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:43:33,824 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:43:33,830 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.971 seconds (JVM running for 4035.479)
+2022-07-24 15:43:33,832 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:44:19,783 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:44:19,784 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:44:19,985 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:44:19,985 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:44:19,986 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:44:19,986 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:44:19,989 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:44:19,989 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 203 ms
+2022-07-24 15:44:20,100 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:44:20,164 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:44:20,177 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:44:20,182 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:44:20,188 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.434 seconds (JVM running for 4081.836)
+2022-07-24 15:44:20,191 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:45:10,165 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:45:10,165 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:45:10,337 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:45:10,338 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:45:10,338 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:45:10,338 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:45:10,342 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:45:10,342 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 172 ms
+2022-07-24 15:45:10,440 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:45:10,493 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:45:10,505 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:45:10,507 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:45:10,516 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.376 seconds (JVM running for 4132.163)
+2022-07-24 15:45:10,517 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:45:51,525 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:45:51,526 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:45:51,751 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:45:51,751 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:45:51,752 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:45:51,752 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:45:51,759 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:45:51,775 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 248 ms
+2022-07-24 15:45:51,935 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:45:51,993 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:45:52,004 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:45:52,008 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:45:52,019 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.518 seconds (JVM running for 4173.665)
+2022-07-24 15:45:52,021 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:46:02,622 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:46:02,622 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:46:02,795 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:46:02,796 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:46:02,796 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:46:02,796 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:46:02,799 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:46:02,800 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 177 ms
+2022-07-24 15:46:02,881 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:46:02,921 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:46:02,954 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:46:02,957 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:46:02,964 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.363 seconds (JVM running for 4184.611)
+2022-07-24 15:46:02,967 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:46:18,624 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:46:18,625 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:46:19,213 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:46:19,215 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:46:19,215 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:46:19,216 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:46:19,239 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:46:19,239 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 612 ms
+2022-07-24 15:46:19,379 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:46:19,422 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:46:19,430 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:46:19,432 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:46:19,439 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.841 seconds (JVM running for 4201.086)
+2022-07-24 15:46:19,441 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:49:21,943 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:49:21,944 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:49:22,829 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:49:22,829 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:49:22,830 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:49:22,830 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:49:22,835 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:49:22,836 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 891 ms
+2022-07-24 15:49:23,445 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:49:23,870 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:49:23,901 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:49:23,974 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:49:23,986 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 2.085 seconds (JVM running for 4385.63)
+2022-07-24 15:49:23,991 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:50:40,442 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:50:40,443 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:50:40,674 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:50:40,675 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:50:40,675 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:50:40,675 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:50:40,679 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:50:40,680 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 236 ms
+2022-07-24 15:50:40,798 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:50:40,852 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:50:40,862 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:50:40,864 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:50:40,868 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.459 seconds (JVM running for 4462.511)
+2022-07-24 15:50:40,869 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:51:44,065 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:51:44,066 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:51:44,281 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:51:44,281 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:51:44,282 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:51:44,282 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:51:44,286 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:51:44,286 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 216 ms
+2022-07-24 15:51:44,370 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:51:44,406 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:51:44,414 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:51:44,418 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:51:44,427 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.41 seconds (JVM running for 4526.068)
+2022-07-24 15:51:44,429 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:52:38,983 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:52:38,985 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:52:39,492 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:52:39,497 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:52:39,498 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:52:39,498 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:52:39,503 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:52:39,503 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 516 ms
+2022-07-24 15:52:39,991 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:52:40,172 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:52:40,186 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:52:40,196 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:52:40,206 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.373 seconds (JVM running for 4581.847)
+2022-07-24 15:52:40,207 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 15:52:48,998 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 15:52:48,999 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 15:52:49,278 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 15:52:49,278 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:52:49,278 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 15:52:49,279 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 15:52:49,284 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 15:52:49,284 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 282 ms
+2022-07-24 15:52:49,408 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 15:52:49,472 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 15:52:49,488 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 15:52:49,491 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 15:52:49,496 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.526 seconds (JVM running for 4591.137)
+2022-07-24 15:52:49,497 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:04:12,003 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:04:12,004 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:04:12,231 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:04:12,232 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:04:12,232 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:04:12,232 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:04:12,242 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:04:12,248 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 241 ms
+2022-07-24 16:04:12,500 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:04:12,587 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:04:12,614 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:04:12,631 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:04:12,680 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.713 seconds (JVM running for 5274.311)
+2022-07-24 16:04:12,683 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:05:13,841 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:05:13,842 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:05:14,186 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:05:14,187 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:05:14,187 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:05:14,187 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:05:14,192 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:05:14,193 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 345 ms
+2022-07-24 16:05:14,321 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:05:14,383 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:05:14,396 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:05:14,398 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:05:14,402 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.615 seconds (JVM running for 5336.033)
+2022-07-24 16:05:14,404 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:08:21,352 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:08:21,353 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:08:21,990 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:08:21,990 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:08:21,991 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:08:21,991 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:08:21,997 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:08:21,997 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 640 ms
+2022-07-24 16:08:22,223 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:08:22,346 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:08:22,360 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:08:22,362 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:08:22,368 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.103 seconds (JVM running for 5523.996)
+2022-07-24 16:08:22,370 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:09:56,006 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:09:56,006 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:09:56,184 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:09:56,185 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:09:56,186 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:09:56,186 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:09:56,190 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:09:56,190 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 182 ms
+2022-07-24 16:09:56,358 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:09:56,394 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:09:56,403 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:09:56,405 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:09:56,410 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.428 seconds (JVM running for 5618.036)
+2022-07-24 16:09:56,412 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:10:24,178 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:10:24,179 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:10:24,344 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:10:24,344 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:10:24,345 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:10:24,345 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:10:24,348 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:10:24,349 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 168 ms
+2022-07-24 16:10:24,429 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:10:24,467 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:10:24,475 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:10:24,476 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:10:24,483 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.328 seconds (JVM running for 5646.109)
+2022-07-24 16:10:24,485 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:16:14,305 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:16:14,306 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:16:14,591 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:16:14,592 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:16:14,592 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:16:14,593 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:16:14,598 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:16:14,598 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 290 ms
+2022-07-24 16:16:14,774 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:16:14,856 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:16:14,868 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:16:14,870 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:16:14,877 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.612 seconds (JVM running for 5996.498)
+2022-07-24 16:16:14,879 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:16:24,501 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:16:24,501 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:16:24,729 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:16:24,730 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:16:24,731 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:16:24,731 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:16:24,735 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:16:24,735 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 233 ms
+2022-07-24 16:16:24,868 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:16:24,948 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:16:24,957 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:16:24,960 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:16:24,965 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.487 seconds (JVM running for 6006.586)
+2022-07-24 16:16:24,967 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:20:11,617 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:20:11,618 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:20:11,784 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:20:11,785 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:20:11,785 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:20:11,785 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:20:11,789 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:20:11,789 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 170 ms
+2022-07-24 16:20:11,885 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:20:11,935 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:20:11,949 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:20:11,953 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:20:11,966 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.37 seconds (JVM running for 6233.583)
+2022-07-24 16:20:11,968 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:20:54,868 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:20:54,869 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:20:55,102 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:20:55,102 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:20:55,103 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:20:55,103 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:20:55,107 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:20:55,107 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 236 ms
+2022-07-24 16:20:55,196 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:20:55,272 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:20:55,297 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:20:55,300 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:20:55,309 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.467 seconds (JVM running for 6276.926)
+2022-07-24 16:20:55,314 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:51:07,893 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:51:07,893 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:51:08,104 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:51:08,105 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:51:08,105 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:51:08,105 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:51:08,109 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:51:08,109 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 214 ms
+2022-07-24 16:51:08,257 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:51:08,302 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:51:08,321 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:51:08,324 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:51:08,329 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.46 seconds (JVM running for 8089.92)
+2022-07-24 16:51:08,330 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 16:54:00,671 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 16:54:00,671 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 16:54:00,922 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 16:54:00,923 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:54:00,923 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 16:54:00,923 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 16:54:00,927 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 16:54:00,927 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 253 ms
+2022-07-24 16:54:01,025 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 16:54:01,081 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 16:54:01,092 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 16:54:01,096 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 16:54:01,102 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.456 seconds (JVM running for 8262.69)
+2022-07-24 16:54:01,104 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 17:00:18,739 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 17:00:18,739 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 17:00:19,170 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 17:00:19,173 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 17:00:19,174 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 17:00:19,174 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 17:00:19,179 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 17:00:19,179 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 438 ms
+2022-07-24 17:00:19,428 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 17:00:19,553 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 17:00:19,574 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 17:00:19,577 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 17:00:19,587 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.882 seconds (JVM running for 8641.17)
+2022-07-24 17:00:19,591 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 17:01:55,246 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 17:01:55,247 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 17:01:55,575 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 17:01:55,576 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 17:01:55,576 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 17:01:55,576 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 17:01:55,582 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 17:01:55,582 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 334 ms
+2022-07-24 17:01:55,761 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 17:01:55,828 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 17:01:55,838 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 17:01:55,840 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 17:01:55,844 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.619 seconds (JVM running for 8737.426)
+2022-07-24 17:01:55,846 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 21:10:31,700 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 21:10:31,701 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 21:10:32,015 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 21:10:32,016 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 21:10:32,017 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 21:10:32,017 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 21:10:32,023 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 21:10:32,023 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 320 ms
+2022-07-24 21:10:32,283 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 21:10:32,379 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 21:10:32,408 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 21:10:32,411 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 21:10:32,415 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.748 seconds (JVM running for 23653.784)
+2022-07-24 21:10:32,416 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:09:13,999 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 22:09:14,021 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 22:09:14,123 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 101 ms
+2022-07-24 22:09:14,328 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-2 - Starting...
+2022-07-24 22:09:14,647 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2022-07-24 22:13:51,895 INFO [Thread-191] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-2 - Shutdown initiated...
+2022-07-24 22:13:51,950 INFO [Thread-191] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-2 - Shutdown completed.
+2022-07-24 22:13:52,525 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 67722 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:13:52,526 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:13:52,906 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:13:52,907 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:13:52,908 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:13:52,908 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:13:52,912 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:13:52,912 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 383 ms
+2022-07-24 22:13:53,037 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:13:53,131 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:13:53,143 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:13:53,144 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:13:53,149 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.663 seconds (JVM running for 27454.464)
+2022-07-24 22:13:53,150 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:14:04,501 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2022-07-24 22:14:13,313 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:14:13,315 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:14:13,377 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-24 22:14:13,378 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-24 22:14:15,614 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:14:15,627 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:14:15,629 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:14:15,630 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:14:15,704 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:14:15,704 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2325 ms
+2022-07-24 22:14:16,367 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:14:16,649 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:14:16,667 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:14:16,711 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:14:16,724 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 4.062 seconds (JVM running for 5.036)
+2022-07-24 22:14:17,142 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 22:14:17,142 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 22:14:17,143 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-07-24 22:19:35,870 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:19:35,872 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:19:36,182 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:19:36,183 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:19:36,183 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:19:36,184 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:19:36,189 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:19:36,189 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 314 ms
+2022-07-24 22:19:36,469 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:19:36,591 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:19:36,606 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:19:36,608 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:19:36,614 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.817 seconds (JVM running for 324.921)
+2022-07-24 22:19:36,616 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:20:19,608 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:20:19,608 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:20:19,814 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:20:19,815 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:20:19,816 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:20:19,816 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:20:19,820 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:20:19,821 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 210 ms
+2022-07-24 22:20:19,945 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:20:19,994 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:20:20,007 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:20:20,010 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:20:20,014 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.442 seconds (JVM running for 368.321)
+2022-07-24 22:20:20,016 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:20:23,355 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 22:20:23,356 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 22:20:23,358 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-07-24 22:20:46,943 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:20:46,944 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:20:47,132 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:20:47,133 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:20:47,133 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:20:47,133 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:20:47,137 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:20:47,137 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 190 ms
+2022-07-24 22:20:47,225 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:20:47,270 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:20:47,278 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:20:47,280 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:20:47,284 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.386 seconds (JVM running for 395.59)
+2022-07-24 22:20:47,286 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:20:54,886 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:20:54,887 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:20:55,120 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:20:55,121 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:20:55,121 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:20:55,121 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:20:55,128 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:20:55,128 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 239 ms
+2022-07-24 22:20:55,233 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:20:55,290 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:20:55,304 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:20:55,306 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:20:55,312 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.453 seconds (JVM running for 403.618)
+2022-07-24 22:20:55,314 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:21:51,147 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:21:51,148 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:21:51,435 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:21:51,438 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:21:51,438 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:21:51,439 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:21:51,444 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:21:51,445 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 294 ms
+2022-07-24 22:21:51,629 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:21:51,696 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:21:51,706 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:21:51,708 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:21:51,714 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.617 seconds (JVM running for 460.019)
+2022-07-24 22:21:51,717 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:22:02,471 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:22:02,476 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:22:02,957 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:22:02,958 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:22:02,958 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:22:02,959 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:22:02,964 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:22:02,964 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 486 ms
+2022-07-24 22:22:03,480 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:22:03,669 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:22:03,740 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:22:03,747 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:22:03,759 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.319 seconds (JVM running for 472.064)
+2022-07-24 22:22:03,763 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:22:09,374 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 22:22:09,376 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 22:22:09,378 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-07-24 22:22:15,269 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-07-24 22:22:15,477 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-07-24 22:23:31,860 INFO [Thread-28] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-07-24 22:23:31,872 INFO [Thread-28] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-07-24 22:23:32,088 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:23:32,089 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:23:32,288 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:23:32,289 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:23:32,289 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:23:32,289 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:23:32,293 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:23:32,293 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 203 ms
+2022-07-24 22:23:32,385 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:23:32,429 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:23:32,437 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:23:32,439 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:23:32,444 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.382 seconds (JVM running for 560.747)
+2022-07-24 22:23:32,445 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:23:35,472 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 22:23:35,475 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 22:23:35,478 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-07-24 22:24:12,245 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-2 - Starting...
+2022-07-24 22:24:12,263 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2022-07-24 22:28:56,876 INFO [Thread-32] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-2 - Shutdown initiated...
+2022-07-24 22:28:56,889 INFO [Thread-32] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-2 - Shutdown completed.
+2022-07-24 22:28:57,161 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:28:57,164 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:28:57,379 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:28:57,380 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:28:57,380 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:28:57,380 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:28:57,386 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:28:57,386 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 219 ms
+2022-07-24 22:28:57,508 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:28:57,587 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:28:57,599 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:28:57,603 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:28:57,612 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.481 seconds (JVM running for 885.911)
+2022-07-24 22:28:57,614 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:42:57,472 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:42:57,473 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:42:57,789 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:42:57,790 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:42:57,791 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:42:57,791 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:42:57,797 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:42:57,797 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 322 ms
+2022-07-24 22:42:57,927 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:42:57,982 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:42:57,998 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:42:58,004 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:42:58,014 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.57 seconds (JVM running for 1726.301)
+2022-07-24 22:42:58,017 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:44:02,229 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:44:02,230 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:44:02,671 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:44:02,678 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:44:02,678 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:44:02,683 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:44:02,902 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:44:02,902 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 671 ms
+2022-07-24 22:44:03,418 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:44:03,567 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:44:03,579 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:44:03,584 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:44:03,591 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.415 seconds (JVM running for 1791.877)
+2022-07-24 22:44:03,592 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:44:27,286 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:44:27,287 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:44:27,464 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:44:27,465 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:44:27,466 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:44:27,466 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:44:27,470 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:44:27,470 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 182 ms
+2022-07-24 22:44:27,594 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:44:27,636 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:44:27,643 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:44:27,645 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:44:27,649 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.387 seconds (JVM running for 1815.935)
+2022-07-24 22:44:27,651 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:45:00,226 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:45:00,227 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:45:00,862 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:45:00,864 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:45:00,865 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:45:00,866 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:45:00,943 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:45:00,943 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 713 ms
+2022-07-24 22:45:01,098 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:45:01,154 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:45:01,167 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:45:01,169 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:45:01,174 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 1.013 seconds (JVM running for 1849.459)
+2022-07-24 22:45:01,176 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:45:22,938 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:45:22,945 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:45:23,221 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:45:23,222 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:45:23,222 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:45:23,223 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:45:23,226 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:45:23,227 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 274 ms
+2022-07-24 22:45:23,491 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:45:23,542 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:45:23,557 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:45:23,559 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:45:23,564 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.68 seconds (JVM running for 1871.849)
+2022-07-24 22:45:23,565 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:49:19,949 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:49:19,950 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:49:20,276 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:49:20,277 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:49:20,277 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:49:20,277 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:49:20,283 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:49:20,283 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 329 ms
+2022-07-24 22:49:20,462 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:49:20,525 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:49:20,539 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:49:20,542 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:49:20,552 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.655 seconds (JVM running for 2108.834)
+2022-07-24 22:49:20,554 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:52:23,872 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:52:23,872 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:52:24,066 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:52:24,067 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:52:24,067 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:52:24,067 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:52:24,071 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:52:24,072 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 198 ms
+2022-07-24 22:52:24,193 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:52:24,254 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:52:24,267 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:52:24,270 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:52:24,275 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.431 seconds (JVM running for 2292.554)
+2022-07-24 22:52:24,276 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:52:48,074 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:52:48,074 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:52:48,307 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:52:48,308 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:52:48,309 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:52:48,309 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:52:48,312 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:52:48,313 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 237 ms
+2022-07-24 22:52:48,477 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:52:48,531 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:52:48,548 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:52:48,550 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:52:48,556 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.504 seconds (JVM running for 2316.835)
+2022-07-24 22:52:48,558 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:53:26,459 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:53:26,460 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:53:26,738 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:53:26,739 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:53:26,739 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:53:26,739 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:53:26,744 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:53:26,744 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 282 ms
+2022-07-24 22:53:26,836 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:53:26,893 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:53:26,902 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:53:26,904 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:53:26,909 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.478 seconds (JVM running for 2355.187)
+2022-07-24 22:53:26,910 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:55:09,569 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:55:09,570 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:55:09,816 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:55:09,817 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:55:09,817 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:55:09,817 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:55:09,822 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:55:09,822 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 251 ms
+2022-07-24 22:55:09,945 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:55:09,992 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:55:10,003 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:55:10,012 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:55:10,017 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.498 seconds (JVM running for 2458.294)
+2022-07-24 22:55:10,019 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:55:21,700 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:55:21,700 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:55:21,934 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:55:21,935 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:55:21,935 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:55:21,936 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:55:21,939 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:55:21,939 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 236 ms
+2022-07-24 22:55:22,061 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:55:22,101 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:55:22,111 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:55:22,113 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:55:22,120 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.47 seconds (JVM running for 2470.396)
+2022-07-24 22:55:22,122 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:56:29,470 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:56:29,470 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:56:29,814 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:56:29,815 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:56:29,815 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:56:29,815 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:56:29,823 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:56:29,825 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 354 ms
+2022-07-24 22:56:30,048 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:56:30,152 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:56:30,163 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:56:30,166 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:56:30,177 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.729 seconds (JVM running for 2538.453)
+2022-07-24 22:56:30,179 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:57:06,110 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:55] Starting DemoApplication using Java 1.8.0_221 on Abby.local with PID 72151 (/Users/lijiayuan/eclipse-workspace/demo/target/classes started by lijiayuan in /Users/lijiayuan/eclipse-workspace/demo)
+2022-07-24 22:57:06,110 INFO [restartedMain] A.d.DemoApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-07-24 22:57:06,329 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-07-24 22:57:06,332 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:57:06,332 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-07-24 22:57:06,333 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-24 22:57:06,338 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-07-24 22:57:06,338 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 226 ms
+2022-07-24 22:57:06,452 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-24 22:57:06,517 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-07-24 22:57:06,528 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-24 22:57:06,530 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-07-24 22:57:06,536 INFO [restartedMain] A.d.DemoApplication [StartupInfoLogger.java:61] Started DemoApplication in 0.45 seconds (JVM running for 2574.811)
+2022-07-24 22:57:06,538 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-07-24 22:58:15,540 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-24 22:58:15,552 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-07-24 22:58:15,554 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-07-24 22:58:15,578 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-3 - Starting...
+2022-07-24 22:58:15,866 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-3 - Start completed.
+2022-07-24 23:57:09,786 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2022-07-24 23:57:09,870 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-3 - Shutdown initiated...
+2022-07-24 23:57:09,901 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-3 - Shutdown completed.
