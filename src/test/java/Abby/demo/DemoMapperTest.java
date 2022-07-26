@@ -46,7 +46,7 @@ public class DemoMapperTest{
 		System.out.println(row);
 	}
 	
-	@Test
+	@Test 
 	public void testLoginTicketMapper() {
 		LoginTicket loginTicket = new LoginTicket();
 		loginTicket.setUserId(101);
