@@ -1,7 +1,9 @@
 package Abby.demo;
 
- import java.util.List;
+ import java.util.Date;
+import java.util.List;
 
+import org.apache.ibatis.javassist.expr.NewArray;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,7 +11,9 @@ import org.springframework.test.context.ContextConfiguration;
 
 import Abby.demo.dao.UserMapper;
 import Abby.demo.dao.DiscussPostMapper;
+import Abby.demo.dao.LoginTicketMapper;
 import Abby.demo.entity.DiscussPost;
+import Abby.demo.entity.LoginTicket;
 import Abby.demo.entity.User;
 
 @SpringBootTest
@@ -21,6 +25,9 @@ public class DemoMapperTest{
 	
 	@Autowired
 	private DiscussPostMapper discussPostMapper;
+	
+	@Autowired
+	LoginTicketMapper loginTicketMapper;
 	
 	@Test
 	public void testSelect() {
@@ -38,6 +45,17 @@ public class DemoMapperTest{
 		
 		int row = discussPostMapper.selectDisPostRows(0);
 		System.out.println(row);
+	}
+	
+	@Test
+	public void testLoginTicketMapper() {
+		LoginTicket loginTicket = new LoginTicket();
+		loginTicket.setUserId(101);
+		loginTicket.setStatus(0);
+		loginTicket.setTicket("abc");
+		loginTicket.setExpire(new Date(System.currentTimeMillis()+1000*60*10));
+		
+		loginTicketMapper.insertLoginTicket(loginTicket);
 	}
 
 }
