@@ -12,7 +12,9 @@ import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
+import Abby.demo.dao.LoginTicketMapper;
 import Abby.demo.dao.UserMapper;
+import Abby.demo.entity.LoginTicket;
 import Abby.demo.entity.User;
 import Abby.demo.util.DemoConstant;
 import Abby.demo.util.MailClient;
@@ -28,6 +30,9 @@ public class UserService implements DemoConstant {
 	
 	@Autowired
 	private TemplateEngine templateEngine;
+	
+	@Autowired
+	LoginTicketMapper loginTicketMapper;
 	
 	@Value("${demo.path.domain}")
 	private String domain;
@@ -105,7 +110,46 @@ public class UserService implements DemoConstant {
 		}
 	}
 	
+	public Map<String, Object> login(String username, String password, int expiredSec){
+		Map<String, Object> map = new HashMap<>();
+		
+		if (StringUtils.isBlank(username)){
+			map.put("usernameMSG", "用户名不能为空！");
+			return map;
+		}
+		if (StringUtils.isBlank(password)){
+			map.put("passwordMSG", "密码不能为空！");
+			return map;
+		}
+		User user = userMapper.selectByName(username); 
+		if (user==null) {
+			map.put("usernameMSG", "该账号不存在！");
+			return map;
+		}
+		if (user.getStatus()==0) {
+			map.put("usernameMSG", "该账号未激活！");
+			return map;
+		}
+		password = demoUtil.md5(password+user.getSalt());
+		if (!user.getPassword().equals(password)) {
+			map.put("passwordMSG", "密码不正确！");
+			return map;
+		}
+		
+		LoginTicket loginTicket = new LoginTicket();
+		loginTicket.setUserId(user.getId());
+		loginTicket.setTicket(demoUtil.genUUID());
+		loginTicket.setStatus(0);
+		loginTicket.setExpire(new Date(System.currentTimeMillis()+1000*expiredSec));
+		loginTicketMapper.insertLoginTicket(loginTicket);
+		map.put("ticket", loginTicket.getTicket());
+		
+		return map;
+	}
 	
+	public void logout(String ticket) {
+		loginTicketMapper.updateStatus(ticket, 1);
+	}
 	
 	
 	
