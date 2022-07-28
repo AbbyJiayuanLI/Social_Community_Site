@@ -151,6 +151,10 @@ public class UserService implements DemoConstant {
 		loginTicketMapper.updateStatus(ticket, 1);
 	}
 	
+	public LoginTicket findLoginTicket(String ticket) {
+		return loginTicketMapper.selectByTicket(ticket);
+	}
+	
 	
 	
 	
