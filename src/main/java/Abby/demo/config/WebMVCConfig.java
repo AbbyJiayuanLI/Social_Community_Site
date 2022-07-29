@@ -6,11 +6,16 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import Abby.demo.interceptor.AlphaInterceptor;
+import Abby.demo.interceptor.LoginTicketInterceptor;
 
 @Configuration
 public class WebMVCConfig implements WebMvcConfigurer {
 	
-	@Autowired AlphaInterceptor alphaInterceptor;
+	@Autowired 
+	AlphaInterceptor alphaInterceptor;
+	
+	@Autowired
+	LoginTicketInterceptor loginTicketInterceptor;
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
@@ -20,8 +25,16 @@ public class WebMVCConfig implements WebMvcConfigurer {
 							     "/**/*.png",
 							     "/**/*.jpg",
 							     "/**/*.jpeg")
-			.addPathPatterns("/register","/login"); 
+			.addPathPatterns("/register","/login");
+		
+		registry.addInterceptor(loginTicketInterceptor)
+			.excludePathPatterns("/**/*.css",	// static/**/*.css
+							     "/**/*.js",
+							     "/**/*.png",
+							     "/**/*.jpg",
+							     "/**/*.jpeg");
 	}
+	
 	
 	
 	
