@@ -110,29 +110,29 @@ public class UserService implements DemoConstant {
 		}
 	}
 	
-	public Map<String, Object> login(String username, String password, int expiredSec){
+	public Map<String, Object> login(String username, String password, long expiredSec){
 		Map<String, Object> map = new HashMap<>();
 		
 		if (StringUtils.isBlank(username)){
-			map.put("usernameMSG", "用户名不能为空！");
+			map.put("usernameMsg", "用户名不能为空！");
 			return map;
 		}
 		if (StringUtils.isBlank(password)){
-			map.put("passwordMSG", "密码不能为空！");
+			map.put("passwordMsg", "密码不能为空！");
 			return map;
 		}
 		User user = userMapper.selectByName(username); 
 		if (user==null) {
-			map.put("usernameMSG", "该账号不存在！");
+			map.put("usernameMsg", "该账号不存在！");
 			return map;
 		}
 		if (user.getStatus()==0) {
-			map.put("usernameMSG", "该账号未激活！");
+			map.put("usernameMsg", "该账号未激活！");
 			return map;
 		}
 		password = demoUtil.md5(password+user.getSalt());
 		if (!user.getPassword().equals(password)) {
-			map.put("passwordMSG", "密码不正确！");
+			map.put("passwordMsg", "密码不正确！");
 			return map;
 		}
 		

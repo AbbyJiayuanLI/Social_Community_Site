@@ -21,10 +21,8 @@ import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.support.SessionStatus;
 
 import com.google.code.kaptcha.Producer;
-import com.sun.mail.util.LogOutputStream;
 
 import Abby.demo.entity.User;
 import Abby.demo.service.UserService;
@@ -89,32 +87,32 @@ public class LoginController implements DemoConstant{
 	}
 	
 	@RequestMapping(path = "/login", method = RequestMethod.POST)
-	public String Login(String username, String password, String code, Boolean remembered,
-						HttpSession session, HttpServletResponse response, Model model) {
+	public String Login(String username, String password, String code, boolean rememberme,
+  Model model, HttpSession session, HttpServletResponse response) {
 		String kaptcha = (String) session.getAttribute("kaptcha");
+		System.out.println("00000000 "+kaptcha);
 		if (StringUtils.isBlank(kaptcha)|| StringUtils.isBlank(code)
 				||!code.equalsIgnoreCase(kaptcha)) {
-			model.addAttribute("codeMSG","验证码不正确！");
+			model.addAttribute("codeMsg","验证码不正确！");
 			return "/site/login";
 		}
 		
-		int expirySec = remembered ? REMEMBER_EXPIRE_SEC : DEFAULT_EXPIRE_SEC;
-		Map<String, Object> map = userService.login(username, password, expirySec);
-		
+		int expiredSeconds = rememberme ? REMEMBER_EXPIRE_SEC : DEFAULT_EXPIRE_SEC;
+		Map<String, Object> map = userService.login(username, password, expiredSeconds);
 		if (map.containsKey("ticket")) {
 			Cookie cookie = new Cookie("ticket", map.get("ticket").toString());
 			cookie.setPath(contextPath);
-			cookie.setMaxAge(expirySec);
+			cookie.setMaxAge(expiredSeconds);
 			response.addCookie(cookie);
-			return "reirect:/index";
+			return "redirect:/index";
 		}else {
-			model.addAttribute("usernameMSG",map.get("usernameMSG"));
-			model.addAttribute("passwordMSG",map.get("passwordMSG"));
+			model.addAttribute("usernameMsg",map.get("usernameMsg"));
+			model.addAttribute("passwordMsg",map.get("passwordMsg"));
 			return "/site/login";
-		}
-			
+		}	
+
 	}
-	
+
 	@RequestMapping(path = "/logout", method = RequestMethod.GET)
 	public String Logout(@CookieValue("ticket") String ticket) {
 		userService.logout(ticket);
@@ -130,7 +128,8 @@ public class LoginController implements DemoConstant{
 		BufferedImage img =  kaptchaProducer.createImage(text);
 		
 		// session 存储
-		session.setAttribute("kaptch", text);
+		session.setAttribute("kaptcha", text);
+		System.out.println("from kaptcha "+text);
 		
 		// 输出图片
 		response.setContentType("image/png");
