@@ -6,6 +6,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import Abby.demo.interceptor.AlphaInterceptor;
+import Abby.demo.interceptor.LoginRequireInterceptor;
 import Abby.demo.interceptor.LoginTicketInterceptor;
 
 @Configuration
@@ -16,6 +17,9 @@ public class WebMVCConfig implements WebMvcConfigurer {
 	
 	@Autowired
 	LoginTicketInterceptor loginTicketInterceptor;
+	
+	@Autowired
+	LoginRequireInterceptor loginRequireInterceptor;
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
@@ -33,6 +37,13 @@ public class WebMVCConfig implements WebMvcConfigurer {
 							     "/**/*.png",
 							     "/**/*.jpg",
 							     "/**/*.jpeg");
+		registry.addInterceptor(loginRequireInterceptor)
+		.excludePathPatterns("/**/*.css",	// static/**/*.css
+						     "/**/*.js",
+						     "/**/*.png",
+						     "/**/*.jpg",
+						     "/**/*.jpeg");
+
 	}
 	
 	
