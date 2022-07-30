@@ -26,7 +26,7 @@ public class LoginRequireInterceptor implements HandlerInterceptor {
 			HandlerMethod handlerMethod = (HandlerMethod) handler;
 			Method method = handlerMethod.getMethod();
 			LoginRequire loginRequire = method.getAnnotation(LoginRequire.class);
-			if (loginRequire!=null && hostHolder.getUser()!=null) {
+			if (loginRequire!=null && hostHolder.getUser()==null) {
 				System.out.println(request.getContextPath());
 				response.sendRedirect(request.getContextPath()+"/login");
 				return false;
