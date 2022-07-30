@@ -155,7 +155,9 @@ public class UserService implements DemoConstant {
 		return loginTicketMapper.selectByTicket(ticket);
 	}
 	
-	
+	public int updateHeader(int UserId, String headerUrl) {
+		return userMapper.updateHeader(UserId, headerUrl);
+	}
 	
 	
 	
