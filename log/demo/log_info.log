@@ -14,3 +14,6 @@
 2022-07-30 00:00:19,546 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
 2022-07-30 00:00:19,580 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
 2022-07-30 00:00:19,735 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-07-30 00:06:38,170 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2022-07-30 00:06:38,209 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-07-30 00:06:38,229 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
