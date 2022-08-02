@@ -9,6 +9,7 @@ import java.util.Map;
 
 import javax.annotation.PostConstruct;
 
+import org.apache.commons.lang3.CharUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -43,13 +44,46 @@ public class SensitiveFilter {
 	 *  @return: String textAfterFilter
 	 */
 	public String filter(String text) {
-		TrieNode triePointer = new TrieNode();
+		TrieNode cur = new TrieNode();
 		int start = 0;
 		int end = 0;
 		StringBuilder sb = new StringBuilder();
 		
-		// 逻辑！！！！！！
-		return "";
+		// 3.1 逻辑！！！！！！
+		// 特殊符号的处理 		
+		while (start<text.length()) {
+			if (end<text.length()) {
+				// end没越界
+				char c = text.charAt(end);
+				
+				// 1. 符号
+				if (isSymbol(c)) {
+					if (cur==rootNode) {
+						sb.append(c);
+						start++;
+					}
+					end++;
+					continue;
+				}
+				
+				// 2. 检查
+				cur = cur.getSubNode(c);
+				if (cur!=null && cur.isEnd()) {
+					sb.append(REPLACE_WORD);
+					start = ++end;
+					cur = rootNode;
+					continue;
+				} else if (cur!=null) {
+					end++;
+					continue;
+				}
+			} 
+			sb.append(text.charAt(start));
+			cur = rootNode;
+			end = ++start;
+						
+		}
+		return sb.toString();
 		
 		
 	}
@@ -75,7 +109,9 @@ public class SensitiveFilter {
 	}
 	
 	
-	
+	public boolean isSymbol(Character c) {
+		return !CharUtils.isAsciiAlphanumeric(c) && (c<0x2E80 || c>0x9FFF);
+	}
 	
 	
 	
