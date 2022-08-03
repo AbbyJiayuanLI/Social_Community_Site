@@ -43,4 +43,9 @@ public class DiscussPostService {
 		//插入
 		return discussPostMapper.insertDisPost(discussPost);
 	}
+	
+	public DiscussPost findDisPostById(int id) {
+		return discussPostMapper.selectDisPostById(id);
+	}
+	
 }
