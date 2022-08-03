@@ -9,7 +9,7 @@ public class DiscussPost {
 	private String title;
 	private String content;
 	private int type;
-	private int status;
+	private int status;		
 	private Date createTime;
 	private int commentCount;
 	private double score;
