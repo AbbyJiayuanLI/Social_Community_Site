@@ -16,4 +16,9 @@ public interface DemoConstant {
 	
 	// 记住之后登陆凭证超时时间
 	int REMEMBER_EXPIRE_SEC = 100*12*60*60;
+	
+	// EntityType
+	int ENTITY_TYPE_POST = 1;
+	int ENTITY_TYPE_COMMENT = 2;
+	
 }
