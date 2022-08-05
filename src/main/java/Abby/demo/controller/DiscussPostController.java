@@ -70,7 +70,7 @@ public class DiscussPostController implements DemoConstant{
 		model.addAttribute("user", user);
 		
 		page.setLimit(5);
-		page.setPath("/discuss/detail"+postId);
+		page.setPath("/discuss/detail/"+postId);
 		page.setRows(discussPost.getCommentCount());
 		
 		// comment评论：给帖子的评论
@@ -87,7 +87,7 @@ public class DiscussPostController implements DemoConstant{
 				
 				// 查找回复
 				List<Comment> replyList = commentService.findCommentByEntity(ENTITY_TYPE_COMMENT, 
-						comment.getEntityId(), 0, Integer.MAX_VALUE);
+						comment.getId(), 0, Integer.MAX_VALUE);
 				List<Map<String, Object>> replyVOList = new ArrayList<Map<String,Object>>();
 				if (replyList!=null) {
 					for (Comment reply : replyList) {
