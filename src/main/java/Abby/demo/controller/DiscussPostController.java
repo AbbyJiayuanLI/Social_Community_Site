@@ -45,17 +45,19 @@ public class DiscussPostController implements DemoConstant{
 	@RequestMapping(path="/add",method = RequestMethod.POST)
 	@ResponseBody
 	public String addDiscussPost(String title, String content) {
+		System.out.println("1111111111111111111");
 		User user = hostHolder.getUser();
 		if (user==null) {
 			return demoUtil.getJSONString(403, "暂未登陆");
 		}
+		System.out.println(user);
 		DiscussPost discussPost = new DiscussPost();
 		discussPost.setUserId(user.getId());
 		discussPost.setTitle(title);
 		discussPost.setContent(content);
 		discussPost.setCreateTime(new Date());
 		discussPostService.addDiscussPost(discussPost);
-		
+		System.out.println(discussPost);
 		// 报错统一处理
 		return demoUtil.getJSONString(0, "发布成功");
 	}
@@ -90,20 +92,21 @@ public class DiscussPostController implements DemoConstant{
 				if (replyList!=null) {
 					for (Comment reply : replyList) {
 						Map<String, Object> replyVO = new HashMap<String, Object>();
-						replyVO.put("comment", reply);
+						replyVO.put("reply", reply);
 						replyVO.put("user", userService.findById(reply.getUserId()));
 						User target = reply.getTargetId() == 0 ? null : userService.findById(reply.getTargetId());
 						replyVO.put("target", target);
 						replyVOList.add(replyVO);
 					}
 				}
-				commentVO.put("reply", replyVOList);
+				commentVO.put("replys", replyVOList);
 				commentVO.put("replyCount", commentService.findCountByEntity(
 						ENTITY_TYPE_COMMENT, comment.getEntityId()));
 				commentVOList.add(commentVO);
 			}
 			
 		}
+		model.addAttribute("comments", commentVOList);
 		return "/site/discuss-detail";
 	}
 
