@@ -18,16 +18,20 @@ import Abby.demo.entity.DiscussPost;
 import Abby.demo.entity.Page;
 import Abby.demo.entity.User;
 import Abby.demo.service.DiscussPostService;
+import Abby.demo.service.LikeService;
 import Abby.demo.service.UserService;
+import Abby.demo.util.DemoConstant;
 
 @Controller
-public class HomeController {
+public class HomeController implements DemoConstant{
 	@Autowired
 	private DiscussPostMapper discussPostMapper;
 	@Autowired
 	private UserService userService;
 	@Autowired
 	private DiscussPostService discussPostService;
+	@Autowired
+	private LikeService likeService;
 	
 	@RequestMapping(path="/index", method=RequestMethod.GET)
 	public String getIndexPage(Model model, Page page) {
@@ -43,6 +47,9 @@ public class HomeController {
 				map.put("post",post);
 				User user = userService.findById(post.getUserId());
 				map.put("user", user);
+				
+				long count = likeService.findEntityLikeCount(ENTITY_TYPE_POST, post.getId());
+				map.put("likeCount", count);
 				discussPosts.add(map);
 			}
 		}

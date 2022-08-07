@@ -21,6 +21,7 @@ import Abby.demo.entity.Page;
 import Abby.demo.entity.User;
 import Abby.demo.service.CommentService;
 import Abby.demo.service.DiscussPostService;
+import Abby.demo.service.LikeService;
 import Abby.demo.service.UserService;
 import Abby.demo.util.DemoConstant;
 import Abby.demo.util.HostHolder;
@@ -32,15 +33,14 @@ public class DiscussPostController implements DemoConstant{
 	
 	@Autowired
 	private DiscussPostService discussPostService;
-	
 	@Autowired
 	private CommentService commentService;
-	
 	@Autowired
-	HostHolder hostHolder;
-	
+	private HostHolder hostHolder;
 	@Autowired
-	UserService userService;
+	private UserService userService;
+	@Autowired
+	private LikeService likeService;
 	
 	@RequestMapping(path="/add",method = RequestMethod.POST)
 	@ResponseBody
@@ -68,7 +68,12 @@ public class DiscussPostController implements DemoConstant{
 		model.addAttribute("post", discussPost);
 		User user = userService.findById(discussPost.getUserId());
 		model.addAttribute("user", user);
-		
+		long count = likeService.findEntityLikeCount(ENTITY_TYPE_POST, discussPost.getId());
+		int status = hostHolder.getUser()==null ? 0 :
+				likeService.findEntityLikeStatus(hostHolder.getUser().getId(), ENTITY_TYPE_POST,  discussPost.getId());
+		model.addAttribute("likeCount", count);
+		model.addAttribute("likeStatus", status);
+				
 		page.setLimit(5);
 		page.setPath("/discuss/detail/"+postId);
 		page.setRows(discussPost.getCommentCount());
@@ -85,6 +90,13 @@ public class DiscussPostController implements DemoConstant{
 				commentVO.put("comment", comment);
 				commentVO.put("user", userService.findById(comment.getUserId()));
 				
+				// 查找like
+				count = likeService.findEntityLikeCount(ENTITY_TYPE_COMMENT, comment.getId());
+				status = hostHolder.getUser()==null ? 0 :
+						likeService.findEntityLikeStatus(hostHolder.getUser().getId(), ENTITY_TYPE_COMMENT, comment.getId());
+				commentVO.put("likeCount", count);
+				commentVO.put("likeStatus", status);
+				
 				// 查找回复
 				List<Comment> replyList = commentService.findCommentByEntity(ENTITY_TYPE_COMMENT, 
 						comment.getId(), 0, Integer.MAX_VALUE);
@@ -96,12 +108,20 @@ public class DiscussPostController implements DemoConstant{
 						replyVO.put("user", userService.findById(reply.getUserId()));
 						User target = reply.getTargetId() == 0 ? null : userService.findById(reply.getTargetId());
 						replyVO.put("target", target);
+						
+						count = likeService.findEntityLikeCount(ENTITY_TYPE_COMMENT, reply.getId());
+						status = hostHolder.getUser()==null ? 0 :
+								likeService.findEntityLikeStatus(hostHolder.getUser().getId(), ENTITY_TYPE_COMMENT, reply.getId());
+						replyVO.put("likeCount", count);
+						replyVO.put("likeStatus", status);
 						replyVOList.add(replyVO);
 					}
 				}
 				commentVO.put("replys", replyVOList);
 				commentVO.put("replyCount", commentService.findCountByEntity(
 						ENTITY_TYPE_COMMENT, comment.getEntityId()));
+				
+				
 				commentVOList.add(commentVO);
 			}
 			
