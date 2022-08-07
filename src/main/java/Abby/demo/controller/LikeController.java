@@ -3,6 +3,7 @@ package Abby.demo.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -16,7 +17,9 @@ import Abby.demo.util.demoUtil;
 @Controller
 public class LikeController {
 	
+	@Autowired
 	private LikeService likeService;
+	@Autowired
 	private HostHolder hostHolder;
 	
 	@RequestMapping(path="like",method = RequestMethod.POST)
