@@ -1,0 +1,10 @@
+2022-08-05 14:20:23,306 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController' defined in file [/Users/lijiayuan/eclipse-workspace/demo/target/classes/Abby/demo/controller/CommentController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [Abby.demo.controller.CommentController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error on token ",", FormalParameter expected after this token
+	Syntax error on token "}", delete this token
+
+2022-08-05 14:20:42,609 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController' defined in file [/Users/lijiayuan/eclipse-workspace/demo/target/classes/Abby/demo/controller/CommentController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [Abby.demo.controller.CommentController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error on token ",", FormalParameter expected after this token
+	Syntax error on token "}", delete this token
+
