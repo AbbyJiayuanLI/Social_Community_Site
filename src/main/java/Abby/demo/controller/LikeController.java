@@ -27,8 +27,8 @@ public class LikeController {
 		long count = likeService.findEntityLikeCount(entityType, entityId);
 		int status = likeService.findEntityLikeStatus(user.getId(), entityType, entityId);
 		Map<String, Object> map = new HashMap<String, Object>();
-		map.put("count", count);
-		map.put("status", status);
+		map.put("likeCount", count);
+		map.put("likeStatus", status);
 		return demoUtil.getJSONString(0, null, map);
 	}
 
