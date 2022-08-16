@@ -21,6 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import Abby.demo.Annotation.LoginRequire;
 import Abby.demo.entity.User;
+import Abby.demo.service.LikeService;
 import Abby.demo.service.UserService;
 import Abby.demo.util.HostHolder;
 import Abby.demo.util.demoUtil;
@@ -40,10 +41,13 @@ public class UserController {
 	private String ContextPath;
 	
 	@Autowired
-	UserService userService;
+	private UserService userService;
 	
 	@Autowired
-	HostHolder hostHolder;
+	private HostHolder hostHolder;
+	
+	@Autowired
+	private LikeService likeService;
 	
 	@RequestMapping(path="/setting", method=RequestMethod.GET)
 	@LoginRequire
@@ -114,6 +118,19 @@ public class UserController {
 		} catch (IOException e) {
 			logger.error("读取头像失败"+e.getMessage());
 		}	
+	}
+	
+	@RequestMapping(path = "/profile/{userId}",method = RequestMethod.GET)
+	public String getProfilePage(@PathVariable("userId") int userId, Model model) {
+		User user = userService.findById(userId);
+		if (user==null) {
+			throw new RuntimeException("用户不存在");
+		}
+		
+		int likeCount = likeService.findUserLikeCount(userId);
+		model.addAttribute("likeCount", likeCount);
+		
+		return "/site/profile";
 	}
 
 }
