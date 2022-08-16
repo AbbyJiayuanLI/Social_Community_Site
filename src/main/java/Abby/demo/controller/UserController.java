@@ -128,9 +128,10 @@ public class UserController {
 		}
 		
 		int likeCount = likeService.findUserLikeCount(userId);
+		model.addAttribute("user", user);
 		model.addAttribute("likeCount", likeCount);
 		
-		return "/site/profile";
+		return "site/profile";
 	}
 
 }
