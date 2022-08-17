@@ -27,6 +27,7 @@ import com.google.code.kaptcha.Producer;
 import Abby.demo.entity.User;
 import Abby.demo.service.UserService;
 import Abby.demo.util.DemoConstant;
+import Abby.demo.util.demoUtil;
 
 @Controller
 public class LoginController implements DemoConstant{
@@ -129,7 +130,14 @@ public class LoginController implements DemoConstant{
 		
 		// session 存储
 //		session.setAttribute("kaptcha", text);
-		// 换存在redis里
+		
+		// 换存在redis里 (为什么要放在cookie里？？)
+		String kaptchaOwner = demoUtil.genUUID(); 
+		Cookie cookie = new Cookie("kaptchaOwner", kaptchaOwner);
+		cookie.setMaxAge(60);
+		cookie.setPath(contextPath);
+		
+		
 		System.out.println("from kaptcha "+text);
 		
 		// 输出图片
