@@ -20,5 +20,5 @@ public interface DemoConstant {
 	// EntityType
 	int ENTITY_TYPE_POST = 1;
 	int ENTITY_TYPE_COMMENT = 2;
-	
+	int ENTITY_TYPE_USER = 3;
 }

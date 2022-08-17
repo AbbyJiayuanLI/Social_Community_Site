@@ -21,13 +21,15 @@ import org.springframework.web.multipart.MultipartFile;
 
 import Abby.demo.Annotation.LoginRequire;
 import Abby.demo.entity.User;
+import Abby.demo.service.FollowService;
 import Abby.demo.service.LikeService;
 import Abby.demo.service.UserService;
+import Abby.demo.util.DemoConstant;
 import Abby.demo.util.HostHolder;
 import Abby.demo.util.demoUtil;
 @Controller
 @RequestMapping("/user")
-public class UserController {
+public class UserController implements DemoConstant{
 	
 	private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 	
@@ -48,6 +50,9 @@ public class UserController {
 	
 	@Autowired
 	private LikeService likeService;
+	
+	@Autowired
+	private FollowService followService;
 	
 	@RequestMapping(path="/setting", method=RequestMethod.GET)
 	@LoginRequire
@@ -130,6 +135,21 @@ public class UserController {
 		int likeCount = likeService.findUserLikeCount(userId);
 		model.addAttribute("user", user);
 		model.addAttribute("likeCount", likeCount);
+		
+		// 查询关注数量
+		long followeeCount = followService.findFolloweeCount(userId, ENTITY_TYPE_USER);
+		model.addAttribute("followeeCount", followeeCount);
+		
+		// 查询粉丝数量
+		long followerCount = followService.findFollowerCount(userId, ENTITY_TYPE_USER);
+		model.addAttribute("followerCount", followerCount);
+		
+		// 查询当前用户是否关注此用户
+		Boolean hasFollowed = false;
+		if (hostHolder.getUser()!=null){
+			hasFollowed = followService.hasFollowed(hostHolder.getUser().getId(), ENTITY_TYPE_USER, userId);
+		}
+		model.addAttribute("hasFollowed", hasFollowed);
 		
 		return "site/profile";
 	}
