@@ -128,7 +128,8 @@ public class LoginController implements DemoConstant{
 		BufferedImage img =  kaptchaProducer.createImage(text);
 		
 		// session 存储
-		session.setAttribute("kaptcha", text);
+//		session.setAttribute("kaptcha", text);
+		// 换存在redis里
 		System.out.println("from kaptcha "+text);
 		
 		// 输出图片
