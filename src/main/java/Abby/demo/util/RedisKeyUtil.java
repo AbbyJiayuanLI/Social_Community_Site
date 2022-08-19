@@ -28,6 +28,7 @@ public class RedisKeyUtil {
 		return PREFIX_FOLLOWER+SPLIT+entityType+SPLIT+entityId;
 	}
 	
+	// 获取kaptcha的key
 	public String getKaptchaKey(String owner) {
 		
 	}
