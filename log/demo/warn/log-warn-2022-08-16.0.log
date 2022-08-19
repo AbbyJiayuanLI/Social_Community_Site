@@ -1,0 +1,8 @@
+2022-08-16 13:02:33,905 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m35s223ms).
+2022-08-16 13:04:46,086 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s183ms).
+2022-08-16 13:13:00,694 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m30s738ms).
+2022-08-16 13:13:54,218 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s524ms).
+2022-08-16 13:19:42,606 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s906ms).
+2022-08-16 13:20:12,381 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:780] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s772ms), soft-evicting connections from pool.
+2022-08-16 13:34:51,013 WARN [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:61] Unable to start LiveReload server
+2022-08-16 13:34:51,065 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use

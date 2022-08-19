@@ -95,7 +95,8 @@ public class LoginController implements DemoConstant{
 	
 	@RequestMapping(path = "/login", method = RequestMethod.POST)
 	public String Login(String username, String password, String code, boolean rememberme,
-  Model model/*, HttpSession session*/, HttpServletResponse response, @CookieValue("kaptchaOwner") String kaptchaOwner) {
+  Model model/*, HttpSession session*/, HttpServletResponse response, 
+  @CookieValue(value="kaptchaOwner",required = false) String kaptchaOwner) {
 //		String kaptcha = (String) session.getAttribute("kaptcha");
 		
 		// 改成从redis取

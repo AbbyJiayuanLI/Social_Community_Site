@@ -4,20 +4,23 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
-import Abby.demo.dao.LoginTicketMapper;
+//import Abby.demo.dao.LoginTicketMapper;
 import Abby.demo.dao.UserMapper;
 import Abby.demo.entity.LoginTicket;
 import Abby.demo.entity.User;
 import Abby.demo.util.DemoConstant;
 import Abby.demo.util.MailClient;
+import Abby.demo.util.RedisKeyUtil;
 import Abby.demo.util.demoUtil;
 
 @Service
@@ -31,8 +34,11 @@ public class UserService implements DemoConstant {
 	@Autowired
 	private TemplateEngine templateEngine;
 	
+//	@Autowired
+//	LoginTicketMapper loginTicketMapper;
+	
 	@Autowired
-	LoginTicketMapper loginTicketMapper;
+	private RedisTemplate redisTemplate;
 	
 	@Value("${demo.path.domain}")
 	private String domain;
@@ -41,7 +47,12 @@ public class UserService implements DemoConstant {
 	private String contextPath;
 	
 	public User findById(int id) {
-		return userMapper.selectById(id);
+//		return userMapper.selectById(id);
+		User user = getCache(id);
+		if (user==null) {
+			user = initCache(id);
+		}
+		return user;
 	}
 	
 	public Map<String, Object> register(User user){
@@ -104,6 +115,7 @@ public class UserService implements DemoConstant {
 			return ACTIVATION_REPEAT;
 		}else if (user.getActivationCode().equals(code)) {
 			userMapper.updateStatus(userId, 1);
+			clearCache(userId);
 			return ACTIVATION_SUCCESS;
 		} else {
 			return ACTIVATION_FAILURE;
@@ -141,24 +153,55 @@ public class UserService implements DemoConstant {
 		loginTicket.setTicket(demoUtil.genUUID());
 		loginTicket.setStatus(0);
 		loginTicket.setExpire(new Date(System.currentTimeMillis()+1000*expiredSec));
-		loginTicketMapper.insertLoginTicket(loginTicket);
+//		loginTicketMapper.insertLoginTicket(loginTicket);
+		
+		// 使用redis
+		String redisKey = RedisKeyUtil.getTicketKey(loginTicket.getTicket());
+		redisTemplate.opsForValue().set(redisKey, loginTicket);
 		map.put("ticket", loginTicket.getTicket());
 		
 		return map;
 	}
 	
 	public void logout(String ticket) {
-		loginTicketMapper.updateStatus(ticket, 1);
+//		loginTicketMapper.updateStatus(ticket, 1);
+		String redisKey = RedisKeyUtil.getTicketKey(ticket);
+		LoginTicket loginTicket = (LoginTicket) redisTemplate.opsForValue().get(redisKey);
+		loginTicket.setStatus(1);
+		redisTemplate.opsForValue().set(redisKey, loginTicket);
 	}
 	
 	public LoginTicket findLoginTicket(String ticket) {
-		return loginTicketMapper.selectByTicket(ticket);
+//		return loginTicketMapper.selectByTicket(ticket);
+		String redisKey = RedisKeyUtil.getTicketKey(ticket);
+		return (LoginTicket) redisTemplate.opsForValue().get(redisKey);
 	}
 	
-	public int updateHeader(int UserId, String headerUrl) {
-		return userMapper.updateHeader(UserId, headerUrl);
+	public int updateHeader(int userId, String headerUrl) {
+		int res = userMapper.updateHeader(userId, headerUrl);
+		clearCache(userId);		// 如果失败呢？？？
+		return res;
 	}
 	
 	
+	// redis优化取user
+	private User getCache(int userId) {
+		String redisKey = RedisKeyUtil.getUserKey(userId);
+		return (User) redisTemplate.opsForValue().get(redisKey);
+	}
+	
+	// 取不到要初始化缓存
+	private User initCache(int userId) {
+		User user = userMapper.selectById(userId);
+		String redisKey = RedisKeyUtil.getUserKey(userId);
+		redisTemplate.opsForValue().set(redisKey, user, 3600, TimeUnit.SECONDS);
+		return user;
+	}
+	
+	// 清除缓存
+	private void clearCache(int userId) {
+		String redisKey = RedisKeyUtil.getUserKey(userId);
+		redisTemplate.delete(redisKey);
+	}
 	
 }

@@ -9,6 +9,7 @@ import org.apache.ibatis.annotations.Update;
 import Abby.demo.entity.LoginTicket;
 
 @Mapper
+@Deprecated
 public interface LoginTicketMapper {
 	
 	@Insert({"insert into login_ticket(user_id,ticket,status,expired) ",
