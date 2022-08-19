@@ -29,7 +29,7 @@ public class RedisKeyUtil {
 	}
 	
 	// 获取kaptcha的key
-	public String getKaptchaKey(String owner) {
+	public static String getKaptchaKey(String owner) {
 		return PREFIX_KAPTCHA+SPLIT+owner;
 	}
 
