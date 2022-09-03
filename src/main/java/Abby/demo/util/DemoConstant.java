@@ -21,4 +21,10 @@ public interface DemoConstant {
 	int ENTITY_TYPE_POST = 1;
 	int ENTITY_TYPE_COMMENT = 2;
 	int ENTITY_TYPE_USER = 3;
+	
+	// topic
+	String TOPIC_COMMENT = "comment";
+	String TOPIC_LIKE = "like";
+	String TOPIC_FOLLOW = "follow";
+	int SYSTEM_USER_ID = 1;
 }

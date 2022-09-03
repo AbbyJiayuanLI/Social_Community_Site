@@ -54,5 +54,9 @@ public class CommentService implements DemoConstant{
 		return rows;
 	}
 	
+	public Comment findCommentById(int id) {
+		return commentMapper.selectCommentById(id);
+	}
+	
 
 }

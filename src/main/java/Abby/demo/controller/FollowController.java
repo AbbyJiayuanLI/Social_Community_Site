@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import Abby.demo.entity.Event;
 import Abby.demo.entity.Page;
 import Abby.demo.entity.User;
+import Abby.demo.event.EventProducer;
 import Abby.demo.service.FollowService;
 import Abby.demo.service.UserService;
 import Abby.demo.util.DemoConstant;
@@ -31,12 +33,22 @@ public class FollowController implements DemoConstant{
 	@Autowired
 	private UserService userService;
 	
+	@Autowired
+	private EventProducer eventProducer;
 	
 	@RequestMapping(path = "/follow",method = RequestMethod.POST)
 	@ResponseBody
 	public String follow(int entityType, int entityId) {
 		User user = hostHolder.getUser();
 		followService.follow(user.getId(), entityType, entityId);
+		
+		Event event = new Event()
+				.setTopic(TOPIC_FOLLOW)
+				.setUserId(user.getId())
+				.setEntityType(entityType)
+				.setEntityId(entityId)
+				.setEntiryUserId(entityId);
+		eventProducer.pubEvent(event);
 		return demoUtil.getJSONString(0, "已关注");
 	}
 	
