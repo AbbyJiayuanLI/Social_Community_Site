@@ -1,0 +1,2 @@
+2022-08-19 13:19:13,287 WARN [http-nio-8080-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [org.springframework.web.bind.MissingRequestCookieException: Required cookie 'kaptchaOwner' for method parameter type String is not present]
+2022-08-19 13:21:31,269 WARN [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [org.springframework.web.bind.MissingRequestCookieException: Required cookie 'kaptchaOwner' for method parameter type String is not present]
